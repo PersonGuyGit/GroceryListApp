@@ -1,0 +1,57 @@
+@import 'palette';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+.Background {
+    background: #548787;
+    background: -webkit-linear-gradient(bottom, #548787, #8FBC94);
+    background: -moz-linear-gradient(bottom, #548787, #8FBC94);
+    background: linear-gradient(to top, #548787, #8FBC94);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 1rem;
+    text-shadow: 2px 2px 0px white;
+}
+
+.RootDiv {
+    margin: auto;
+    width: 75%;
+    padding: 1rem;
+}
+
+.InputTaskBarFrame {
+   background-color: steelblue;
+   border-radius: 50px;
+   width: 75%;
+   margin: 1rem auto 1rem auto;
+
+ }
+
+.TaskInputBar {
+    margin: auto;
+    width: 100%;
+    background-color: white;
+}
+
+.ButtonMenuDiv {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+}
+
+.btn-primary {
+    background-color: hsla(283, 16%, 32%, 1) !important;
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+    margin: auto;
+}
+
+
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+
+}

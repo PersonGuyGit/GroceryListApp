@@ -1,38 +1,65 @@
-.App {
+/* Coolors Exported Palette - https://coolors.co/6da34d-56445d-548687-8fbc94-c5e99b */
+/* SCSS HEX */
+/* SCSS HSL */
+/* SCSS RGB */
+/* SCSS Gradient */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+.Background {
+  background: #548787;
+  background: -webkit-gradient(linear, left bottom, left top, from(#548787), to(#8FBC94));
+  background: linear-gradient(to top, #548787, #8FBC94);
+}
+
+h1 {
   text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding: 1rem;
+  text-shadow: 2px 2px 0px white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.RootDiv {
+  margin: auto;
+  width: 75%;
+  padding: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.InputTaskBarFrame {
+  background-color: steelblue;
+  border-radius: 50px;
+  width: 75%;
+  margin: 1rem auto 1rem auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.TaskCountText {
+  color: white;  
+  text-align: center;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+.TaskInputBar {
+  margin: auto;
+  width: 100%;
+  background-color: white;
+}
+
+.ButtonMenuDiv {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 75%;
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-primary {
+  background-color: #57455f !important;
+  padding-left: 2% !important;
+  padding-right: 2% !important;
+  margin: auto;
+  border-color: #57455f !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*# sourceMappingURL=App.css.map */
