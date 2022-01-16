@@ -58,8 +58,8 @@ function App() {
 
   return (
     <>
+    <Navbar/>
     <div className="Background">
-      <Navbar/>
       <div className="RootDiv" class="card-header containerClass">
          <h1>Grocery List</h1>
         <div className="InputForTask" class="card-body InputTaskBarFrame containerClass">

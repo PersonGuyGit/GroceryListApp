@@ -7,7 +7,7 @@
     margin-top: 1rem !important;
     margin-bottom: 1rem !important;
     margin: auto;
-    min-width: 20em !important;
+    min-width: 15em !important;
     
 }
 
@@ -15,5 +15,5 @@ span {
     margin-left: .5rem;
     margin-right: .5rem;
     font-family: 'Raleway', sans-serif;
-    min-width: 15em;
+    min-width: 20em;
 }

@@ -9,13 +9,15 @@
   background: -webkit-gradient(linear, left bottom, left top, from(#548787), to(#8FBC94));
   background: linear-gradient(to top, #548787, #8FBC94);
   min-width: 15em;
+  min-height: 100vh;
+  min-width: 100vw;
 }
-
 
 .containerClass {
   padding: 0 4em;
   max-width: 70rem;
   margin: 0 auto;
+  min-width: 15em;
 }
 
 h1 {
@@ -37,8 +39,7 @@ h1 {
 }
 
 .InputTaskBarFrame {
-
-  min-width: 15em;
+  min-width: 15em !important;
   background-color: steelblue;
   border-radius: 50px;
   margin: 1em auto 1em auto;
