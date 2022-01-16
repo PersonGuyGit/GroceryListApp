@@ -1,13 +1,19 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
 .card {
     background-color: hsla(283, 16%, 32%, 1) !important;
     color: white;
     margin-top: 1rem !important;
     margin-bottom: 1rem !important;
     margin: auto;
-    width: 75%;
+    min-width: 20em !important;
+    
 }
+
 span {
     margin-left: .5rem;
     margin-right: .5rem;
+    font-family: 'Raleway', sans-serif;
+    min-width: 15em;
 }

@@ -8,6 +8,14 @@
   background: #548787;
   background: -webkit-gradient(linear, left bottom, left top, from(#548787), to(#8FBC94));
   background: linear-gradient(to top, #548787, #8FBC94);
+  min-width: 15em;
+}
+
+
+.containerClass {
+  padding: 0 4em;
+  max-width: 70rem;
+  margin: 0 auto;
 }
 
 h1 {
@@ -17,17 +25,24 @@ h1 {
   text-shadow: 2px 2px 0px white;
 }
 
+.Icon {
+  padding-left: 1%;
+}
+
 .RootDiv {
   margin: auto;
-  width: 75%;
-  padding: 1rem;
+  max-width: 75%;
+  min-width: 35%;
+  padding: 1em;
 }
 
 .InputTaskBarFrame {
+
+  min-width: 15em;
   background-color: steelblue;
   border-radius: 50px;
-  width: 75%;
-  margin: 1rem auto 1rem auto;
+  margin: 1em auto 1em auto;
+  min-height: 8rem;
 }
 
 .TaskCountText {
@@ -35,31 +50,34 @@ h1 {
   text-align: center;
   margin: auto;
   font-family: 'Raleway', sans-serif;
+  min-width: 15em;
 }
 
 .TaskInputBar {
   margin: auto;
-  width: 100%;
   background-color: white;
+  min-width: 15em;
+  overflow: visible;
 }
 
 .ButtonMenuDiv {
-  padding: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  padding: 1em;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 75%;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  min-width: 15rem;
   margin: auto;
 }
 
 .btn-primary {
   background-color: #57455f !important;
-  padding-left: 2% !important;
-  padding-right: 2% !important;
-  margin: auto;
+  margin-left: 2% !important;
+  margin-right: 2% !important;
+  margin: 0 auto;
+  min-height: 4em;
+  min-width: 4em;
   border-color: #57455f !important;
+  font-family: 'Raleway', sans-serif;
 }
 /*# sourceMappingURL=App.css.map */
